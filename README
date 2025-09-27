@@ -16,10 +16,7 @@ Features:
 
 
 Requirements:
-
-![Node.js](https://img.shields.io/badge/node-%3E%3D14-green)  
-
-
+  -[Node.js]  
 
 Installation :
 
@@ -48,5 +45,3 @@ npm start -- <city_name>
 ```
     city_name - The name of the city you want the weather reort on.
 
-License:
-  ![License](https://img.shields.io/badge/license-MIT-blue)
