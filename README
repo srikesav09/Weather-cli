@@ -1,0 +1,52 @@
+Weather CLI
+
+A simple Node.js command-line tool to fetch current weather information for any city using the [OpenWeatherMap API](https://openweathermap.org/).
+
+
+Features:
+
+- Get real-time weather data by city name
+- Shows:
+  - Temperature (°C)
+  - Feels like temperature
+  - Weather conditions
+  - Humidity
+  - Wind speed
+- Handles invalid city names with friendly error messages
+
+
+Requirements:
+
+![Node.js](https://img.shields.io/badge/node-%3E%3D14-green)  
+
+
+
+Installation :
+
+Clone the repository:
+
+```bash
+
+git clone https://github.com/srikesav09/weather-cli.git
+cd weather-cli 
+```
+    To access the git repo using the command prompt.
+```bash
+npm install
+```
+    Install npm to execute the Weather-cli in the command prompt.
+
+```bash
+    chmod +x index.js
+```
+    For Linux or Macos , use this command to execute the file.
+
+Note:
+    If executing using npm then use 
+```bash 
+npm start -- <city_name>
+```
+    city_name - The name of the city you want the weather reort on.
+
+License:
+  ![License](https://img.shields.io/badge/license-MIT-blue)

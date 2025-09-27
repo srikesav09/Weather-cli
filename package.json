@@ -1,0 +1,16 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "Simple command-line weather app using only Node.js ",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["node", "cli", "weather"],
+  "author": "srikesav",
+  "license": "MIT"
+}
